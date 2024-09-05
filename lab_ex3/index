@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+
+<div class="container">
+  <h2>Basic Table</h2>
+  <p>The table for animal tyes</p>            
+  <table class="table table-bordered table-striped table-hover table-condensed">
+    <thead>
+      <tr>
+        <th scope="row">Breed</th>
+        <th >Type</th>
+        <th>Life Expectancy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>German Shepard</td>
+        <td>Dog</td>
+        <td>20 years</td>
+      </tr>
+      <tr>
+        <td>Parrot</td>
+        <td>Bird</td>
+        <td>5 years</td>
+      </tr>
+      <tr>
+        <td>Mini-Lop</td>
+        <td>Rabbit</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>Munchkin</td>
+        <td>Cat</td>
+        <td>10</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
