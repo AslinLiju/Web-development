@@ -1,47 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Animal Types Table</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
- <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+  <style>
+    body {
+      background-color: #f8e7fa; 
+    }
+    .dog-table thead { background-color: #5c98d7; }
+    .cat-table thead { background-color: #5c98d7; }
+    .bird-table thead { background-color: #5c98d7; }
+    .fish-table thead { background-color: #5c98d7; }
+    .rabbit-table thead { background-color: #5c98d7; }
+  </style>
 </head>
 <body>
 
 <div class="container">
-  <h2>Basic Table</h2>
-  <p>The table for animal tyes</p>            
-  <table class="table table-bordered table-striped table-hover table-condensed">
+  <h2>Animal Types with Life Expectancy</h2>
+
+  <h3>Dogs</h3>
+  <table class="table table-bordered table-striped table-hover table-condensed dog-table">
     <thead>
       <tr>
         <th scope="row">Breed</th>
-        <th >Type</th>
+        <th>Type</th>
         <th>Life Expectancy</th>
       </tr>
     </thead>
     <tbody>
+      <tr><td>Labrador</td><td>Dog</td><td>10-12 years</td></tr>
+      <tr><td>Jack Russel Terrier</td><td>Dog</td><td>13-16 years</td></tr>
+      <tr><td>Dachshund</td><td>Dog</td><td>12-16 years</td></tr>
+      <tr><td>Pomeranian</td><td>Dog</td><td>12-16 years</td></tr>
+      <tr><td>Yorkshire Terrier</td><td>Dog</td><td>13-16 years</td></tr>
+      <tr><td>Maltese</td><td>Dog</td><td>12-15 years</td></tr>
+      <tr><td>Chihuahua</td><td>Dog</td><td>12-20 years</td></tr>
+      <tr><td>Corgi</td><td>Dog</td><td>12-15 years</td></tr>
+      <tr><td>Miniature Pinscher</td><td>Dog</td><td>12-16 years</td></tr>
+      <tr><td>King Charles Spaniel</td><td>Dog</td><td>10-14 years</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Cats</h3>
+  <table class="table table-bordered table-striped table-hover table-condensed cat-table">
+    <thead>
       <tr>
-        <td>German Shepard</td>
-        <td>Dog</td>
-        <td>20 years</td>
+        <th scope="row">Breed</th>
+        <th>Type</th>
+        <th>Life Expectancy</th>
       </tr>
+    </thead>
+    <tbody>
+      <tr><td>Siamese</td><td>Cat</td><td>15-20 years</td></tr>
+      <tr><td>Persian</td><td>Cat</td><td>10-17 years</td></tr>
+      <tr><td>Snowshoe</td><td>Cat</td><td>14-20 years</td></tr>
+      <tr><td>Sokoke</td><td>Cat</td><td>13-15 years</td></tr>
+      <tr><td>Laperm</td><td>Cat</td><td>10-14 years</td></tr>
+      <tr><td>Munchkin</td><td>Cat</td><td>12-15 years</td></tr>
+      <tr><td>Oriental Shorthair</td><td>Cat</td><td>12-15 years</td></tr>
+      <tr><td>Abyssinian</td><td>Cat</td><td>9-15 years</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Birds</h3>
+  <table class="table table-bordered table-striped table-hover table-condensed bird-table">
+    <thead>
       <tr>
-        <td>Parrot</td>
-        <td>Bird</td>
-        <td>5 years</td>
+        <th scope="row">Breed</th>
+        <th>Type</th>
+        <th>Life Expectancy</th>
       </tr>
+    </thead>
+    <tbody>
+      <tr><td>Parrot</td><td>Bird</td><td>50-60 years</td></tr>
+      <tr><td>Canary</td><td>Bird</td><td>10-15 years</td></tr>
+      <tr><td>Finch</td><td>Bird</td><td>5-10 years</td></tr>
+      <tr><td>Parakeet</td><td>Bird</td><td>5-10 years</td></tr>
+      <tr><td>Chicken</td><td>Bird</td><td>5-10 years</td></tr>
+      <tr><td>Love Bird</td><td>Bird</td><td>10-15 years</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Fish</h3>
+  <table class="table table-bordered table-striped table-hover table-condensed fish-table">
+    <thead>
       <tr>
-        <td>Mini-Lop</td>
-        <td>Rabbit</td>
-        <td>7</td>
+        <th scope="row">Breed</th>
+        <th>Type</th>
+        <th>Life Expectancy</th>
       </tr>
+    </thead>
+    <tbody>
+      <tr><td>Angel Fish</td><td>Fish</td><td>10-12 years</td></tr>
+      <tr><td>Red Tailed Black Shark</td><td>Fish</td><td>5-8 years</td></tr>
+      <tr><td>Discus</td><td>Fish</td><td>10-15 years</td></tr>
+      <tr><td>Guppy</td><td>Fish</td><td>2-3 years</td></tr>
+      <tr><td>Goldfish</td><td>Fish</td><td>10-15 years</td></tr>
+      <tr><td>Tiger Barb</td><td>Fish</td><td>5-7 years</td></tr>
+      <tr><td>Lionhead Cichlid</td><td>Fish</td><td>8-10 years</td></tr>
+      <tr><td>Neon Tetra</td><td>Fish</td><td>5-10 years</td></tr>
+      <tr><td>Labidochromis Caeruleus</td><td>Fish</td><td>10-12 years</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Rabbits</h3>
+  <table class="table table-bordered table-striped table-hover table-condensed rabbit-table">
+    <thead>
       <tr>
-        <td>Munchkin</td>
-        <td>Cat</td>
-        <td>10</td>
+        <th scope="row">Breed</th>
+        <th>Type</th>
+        <th>Life Expectancy</th>
       </tr>
+    </thead>
+    <tbody>
+      <tr><td>Netherland Dwarf</td><td>Rabbit</td><td>7-10 years</td></tr>
+      <tr><td>Jersey Wooly</td><td>Rabbit</td><td>7-10 years</td></tr>
+      <tr><td>Holland Lop</td><td>Rabbit</td><td>7-10 years</td></tr>
+      <tr><td>Mini Rex</td><td>Rabbit</td><td>7-10 years</td></tr>
+      <tr><td>Dutch</td><td>Rabbit</td><td>5-8 years</td></tr>
+      <tr><td>Mini Lop</td><td>Rabbit</td><td>5-10 years</td></tr>
+      <tr><td>Rex</td><td>Rabbit</td><td>5-6 years</td></tr>
+      <tr><td>Satin</td><td>Rabbit</td><td>5-8 years</td></tr>
+      <tr><td>New Zealand</td><td>Rabbit</td><td>5-7 years</td></tr>
+      <tr><td>French Lop</td><td>Rabbit</td><td>5-7 years</td></tr>
     </tbody>
   </table>
 </div>
