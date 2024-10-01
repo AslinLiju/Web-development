@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page</title>
+    <link rel="stylesheet" href="styles4b.css">
+</head>
+<body>
+    <div id="container">
+        <h1 id="hoverText">Hello... try to touch me!</h1>
+        <button id="timeButton">Show Current Time</button>
+        <div id="timeDisplay"></div>
+        <div id="imageContainer">
+            <img id="hoverImage" src="peek_a_boo.gif" alt="Hover me">
+            <div id="peekABoo">Peek-a-boo!</div>
+        </div>
+    </div>
+    <script src="script4b.js"></script>
+</body>
+</html>
