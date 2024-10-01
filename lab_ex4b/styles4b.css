@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#container {
+    padding: 20px;
+}
+
+#timeButton {
+    margin-bottom: 20px; 
+    display: block; 
+    width: 200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#timeDisplay {
+    margin-bottom: 20px; 
+    font-size: 1.5em; 
+    border: 1px solid #1a0a0a; 
+    padding: 10px; 
+    display: block; 
+    width: 200px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#imageContainer {
+    position: relative;
+    display: block; 
+    margin-top: 20px; 
+}
+
+#hoverImage {
+    width: 500px;
+    transition: transform 0.5s;
+    position: relative; 
+    z-index: 1;
+}
+
+#peekABoo {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+    opacity: 1; 
+    z-index: 0; 
+}
+
+#imageContainer:hover #hoverImage {
+    transform: translateY(100px); 
+}
+
