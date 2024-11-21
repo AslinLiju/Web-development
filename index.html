@@ -5,41 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       
         body {
-            background-image: url('pet_bg.png'); 
+            background-image: url('pet_bg.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
             display: flex;
             align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
             font-family: Times New Roman, sans-serif;
         }
         
         .link-container {
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.8); 
+            background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
             border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         a {
             display: block;
             font-size: 1.2em;
             color: #333;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+
+        a:hover {
+            color: #007acc;
         }
     </style>
 </head>
 <body>
     <div class="link-container">
         <a href="lab_ex1/home.html">Exercise1</a>
-        <br>
         <a href="lab_ex2/index.html">Exercise2</a>
-        <br>
         <a href="lab_ex3/ex3.html">Exercise3</a>
-        <br>
         <a href="lab_ex4a/ex4a_home.html">Exercise4a</a>
-        <br>
         <a href="lab_ex4b/ex4b_home.html">Exercise4b</a>
     </div>
 </body>
