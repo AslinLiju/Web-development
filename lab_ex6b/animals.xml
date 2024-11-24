@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animals>
+    <!-- Dogs -->
+    <Animal>
+        <Breed>Labrador</Breed>
+        <LifeExpectancy>10-12 years</LifeExpectancy>
+        <Price>800</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Jack Russel Terrier</Breed>
+        <LifeExpectancy>13-16 years</LifeExpectancy>
+        <Price>1000</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Dachshund</Breed>
+        <LifeExpectancy>12-16 years</LifeExpectancy>
+        <Price>600</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Pomeranian</Breed>
+        <LifeExpectancy>12-16 years</LifeExpectancy>
+        <Price>900</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Yorkshire Terrier</Breed>
+        <LifeExpectancy>13-16 years</LifeExpectancy>
+        <Price>850</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Maltese</Breed>
+        <LifeExpectancy>12-15 years</LifeExpectancy>
+        <Price>700</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Chihuahua</Breed>
+        <LifeExpectancy>12-20 years</LifeExpectancy>
+        <Price>400</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Corgi</Breed>
+        <LifeExpectancy>12-15 years</LifeExpectancy>
+        <Price>1100</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Miniature Pinscher</Breed>
+        <LifeExpectancy>12-16 years</LifeExpectancy>
+        <Price>800</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>King Charles Spaniel</Breed>
+        <LifeExpectancy>10-14 years</LifeExpectancy>
+        <Price>950</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+
+    <!-- Cats -->
+    <Animal>
+        <Breed>Siamese</Breed>
+        <LifeExpectancy>15-20 years</LifeExpectancy>
+        <Price>1200</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Persian</Breed>
+        <LifeExpectancy>10-17 years</LifeExpectancy>
+        <Price>1500</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Snowshoe</Breed>
+        <LifeExpectancy>14-20 years</LifeExpectancy>
+        <Price>1100</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Sokoke</Breed>
+        <LifeExpectancy>13-15 years</LifeExpectancy>
+        <Price>1000</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Laperm</Breed>
+        <LifeExpectancy>10-14 years</LifeExpectancy>
+        <Price>900</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Munchkin</Breed>
+        <LifeExpectancy>12-15 years</LifeExpectancy>
+        <Price>950</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Oriental Shorthair</Breed>
+        <LifeExpectancy>12-15 years</LifeExpectancy>
+        <Price>850</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Abyssinian</Breed>
+        <LifeExpectancy>9-15 years</LifeExpectancy>
+        <Price>1000</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+
+    <!-- Birds -->
+    <Animal>
+        <Breed>Parrot</Breed>
+        <LifeExpectancy>50-60 years</LifeExpectancy>
+        <Price>1500</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Canary</Breed>
+        <LifeExpectancy>10-15 years</LifeExpectancy>
+        <Price>300</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Finch</Breed>
+        <LifeExpectancy>5-10 years</LifeExpectancy>
+        <Price>250</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Parakeet</Breed>
+        <LifeExpectancy>5-10 years</LifeExpectancy>
+        <Price>200</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Chicken</Breed>
+        <LifeExpectancy>5-10 years</LifeExpectancy>
+        <Price>50</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Love Bird</Breed>
+        <LifeExpectancy>10-15 years</LifeExpectancy>
+        <Price>250</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+
+    <!-- Fish -->
+    <Animal>
+        <Breed>Angel Fish</Breed>
+        <LifeExpectancy>10-12 years</LifeExpectancy>
+        <Price>50</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Red Tailed Black Shark</Breed>
+        <LifeExpectancy>5-8 years</LifeExpectancy>
+        <Price>70</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Discus</Breed>
+        <LifeExpectancy>10-15 years</LifeExpectancy>
+        <Price>120</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Guppy</Breed>
+        <LifeExpectancy>2-3 years</LifeExpectancy>
+        <Price>10</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Goldfish</Breed>
+        <LifeExpectancy>10-15 years</LifeExpectancy>
+        <Price>15</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Tiger Barb</Breed>
+        <LifeExpectancy>5-7 years</LifeExpectancy>
+        <Price>20</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Lionhead Cichlid</Breed>
+        <LifeExpectancy>8-10 years</LifeExpectancy>
+        <Price>40</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Neon Tetra</Breed>
+        <LifeExpectancy>5-10 years</LifeExpectancy>
+        <Price>15</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Labidochromis Caeruleus</Breed>
+        <LifeExpectancy>10-12 years</LifeExpectancy>
+        <Price>50</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+
+    <!-- Rabbits -->
+    <Animal>
+        <Breed>Netherland Dwarf</Breed>
+        <LifeExpectancy>7-10 years</LifeExpectancy>
+        <Price>80</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Jersey Wooly</Breed>
+        <LifeExpectancy>7-10 years</LifeExpectancy>
+        <Price>90</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Holland Lop</Breed>
+        <LifeExpectancy>7-10 years</LifeExpectancy>
+        <Price>85</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Mini Rex</Breed>
+        <LifeExpectancy>7-10 years</LifeExpectancy>
+        <Price>75</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Dutch</Breed>
+        <LifeExpectancy>5-8 years</LifeExpectancy>
+        <Price>70</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Mini Lop</Breed>
+        <LifeExpectancy>5-10 years</LifeExpectancy>
+        <Price>60</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Rex</Breed>
+        <LifeExpectancy>5-6 years</LifeExpectancy>
+        <Price>65</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>Satin</Breed>
+        <LifeExpectancy>5-8 years</LifeExpectancy>
+        <Price>70</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>New Zealand</Breed>
+        <LifeExpectancy>5-7 years</LifeExpectancy>
+        <Price>80</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+    <Animal>
+        <Breed>French Lop</Breed>
+        <LifeExpectancy>5-7 years</LifeExpectancy>
+        <Price>85</Price>
+        <DateAdded>2024-11-23</DateAdded>
+    </Animal>
+</Animals>
