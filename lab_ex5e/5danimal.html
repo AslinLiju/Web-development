@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Animal</title>
+    <link rel="stylesheet" href="5danimal.css">
+</head>
+<body>
+    <h1>Select Animal</h1>
+    <form action="ex5d" method="GET">
+        <!-- Hidden fields to pass username and email -->
+        <input type="hidden" name="username" value="<%= request.getParameter('username') %>">
+        <input type="hidden" name="email" value="<%= request.getParameter('email') %>">
+
+        <label for="desiredAnimal">Animal Type:</label>
+        <select id="desiredAnimal" name="desiredAnimal">
+            <option value="---">---</option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Bird">Bird</option>
+            <option value="Fish">Fish</option>
+            <option value="Rabbit">Rabbit</option>
+        </select><br><br>
+
+        <button type="submit">Get Breeds</button>
+    </form>
+</body>
+</html>
